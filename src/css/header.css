@@ -1,0 +1,126 @@
+
+#navbar ul li a:hover {
+  font-size: 22px;
+}
+
+#navbar ul li a {
+  background: linear-gradient(80deg, #0dcbd1, #8130b3);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: color 0.3s ease;
+  font-size: 21px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+
+#navbar.scrolled ul li a {
+  background: linear-gradient(80deg, #045292, #8130b3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.gradient-text {
+  background: linear-gradient(80deg, #0dcbd1, #8130b3);
+  -webkit-background-clip: text; /* Hace que el fondo de gradiente se aplique solo al texto */
+  color: transparent; /* Hace que el texto sea transparente para que se muestre el fondo de gradiente */
+  display: inline-block; /* Asegura que el fondo de gradiente se aplique solo al contenido del texto */
+}
+
+
+
+
+
+.custom-font-size {
+  /* font-size: 24px; Puedes ajustar el tamaño de fuente según tus preferencias */
+}
+
+
+
+.custom-size {
+  width: 1400px;
+  /* Ancho personalizado */
+  height: 460px;
+  /* Alto personalizado */
+}
+
+/* .custom-size {
+  width: 100%; 
+  height: auto; 
+} */
+
+@media (min-width: 768px) {
+  .custom-size {
+    max-width: 1400px; /* Ancho máximo en pantallas más grandes */
+  }
+}
+
+.scroll-top,
+.whatsapp-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2cd434;
+  /* Puedes ajustar el color de fondo según tus preferencias */
+  width: 50px;
+  /* Ajusta el ancho del botón según tus necesidades */
+  height: 50px;
+  /* Ajusta la altura del botón según tus necesidades */
+  border-radius: 50%;
+  /* Hace que el botón sea completamente redondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  /* Puedes ajustar el color del icono según tus preferencias */
+  text-decoration: none;
+}
+
+.whatsapp-link {
+  bottom: 80px;
+  /* Ajusta la distancia vertical según sea necesario */
+}
+
+.pse-button {
+  position: fixed;
+  left: 20px;
+  /* Ajusta la posición izquierda según tus necesidades */
+  bottom: 20px;
+  /* Ajusta la posición inferior según tus necesidades */
+  z-index: 1000;
+  /* Asegura que esté encima de otros elementos */
+}
+
+
+
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(-2px, 2px);
+  }
+
+  50% {
+    transform: translate(2px, -2px);
+  }
+
+  75% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.vibrating-icon {
+  animation: vibrate 0.5s infinite;
+}
+
+
+
+
