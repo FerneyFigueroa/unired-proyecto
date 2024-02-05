@@ -2,7 +2,7 @@
  <h1 v-if="authStatus === 'authenticating'">
     {{ authStatus }}
   </h1>
-  <router-view v-else/>
+  <router-view />
 </template>
 
 <script>

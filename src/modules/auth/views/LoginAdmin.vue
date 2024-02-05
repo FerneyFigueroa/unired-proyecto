@@ -1,8 +1,10 @@
 <template>
   <div class="body">
+
+    <img src="../../../../src/images/logo.png" alt="Logo" class="imagen-encima"  />
     <div class="fondo">
 		
-    <!-- <img src="../../../img/Virtual 2 logo fondo.jpg" alt="Logo" class="logo-fondo" /> -->
+    
     
     <div class="contenedor-form login">
       <h3>Iniciar Sesion</h3>
@@ -54,8 +56,8 @@ export default {
     const { loginUser } = userAuth()
     
     const userForm = ref({
-      email: 'alezfigueroa@hotmail.com',
-      password: '123456'
+      email: '',
+      password: ''
     })
 
     return {
@@ -69,14 +71,15 @@ export default {
           // SweetAlert para un inicio de sesión exitoso
           Swal.fire({
             icon: 'success',
-            title: 'Inicio de sesión exitoso',
+            title: 'Bienvenido a Virtualred',
             showConfirmButton: false,
             timer: 2500
           })
           
-
+         
           // Redireccionar a la página de inicio después de un inicio de sesión exitoso
           router.push({ name: 'home' })
+          
         }
       }
     }

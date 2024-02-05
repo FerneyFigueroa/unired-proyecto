@@ -4,7 +4,7 @@ export default {
     children:[
        {
         path:'',
-        name:'Login',
+        name:'login',
         component : ()=> import(/**/'../../../modules/auth/views/LoginAdmin.vue'),
        } ,
        {

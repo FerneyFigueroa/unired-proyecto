@@ -1,9 +1,9 @@
 
-#navbar ul li a:hover {
+/* #navbar ul li a:hover {
   font-size: 22px;
-}
+} */
 
-#navbar ul li a {
+/* #navbar ul li a {
   background: linear-gradient(80deg, #0dcbd1, #8130b3);
   -webkit-background-clip: text;
   color: transparent;
@@ -11,15 +11,15 @@
   font-size: 21px;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
   transition: color 0.3s ease, font-size 0.3s ease;
-}
+} */
 
 
-#navbar.scrolled ul li a {
+/* #navbar.scrolled ul li a {
   background: linear-gradient(80deg, #045292, #8130b3);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
+} */
 
 
 .gradient-text {
@@ -33,9 +33,6 @@
 
 
 
-.custom-font-size {
-  /* font-size: 24px; Puedes ajustar el tamaño de fuente según tus preferencias */
-}
 
 
 

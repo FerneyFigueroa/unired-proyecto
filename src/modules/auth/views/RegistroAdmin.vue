@@ -1,5 +1,6 @@
 <template>
   <div class="body">
+    <img src="../../../../src/images/logo.png" alt="Logo" class="imagen-encima"  />
     <div class="fondo1">
 		
     
@@ -38,7 +39,7 @@
       <button type="submit" class="botn">Crear Cuenta</button>
 
       <div class="registrar">
-        <p>Ya tienes una Cuenta? <router-link :to="{name:'Login'}"  class="registrar-link">Inicio de sesion</router-link></p>
+        <p>Ya tienes una Cuenta? <router-link :to="{name:'login'}"  class="registrar-link">Inicio de sesion</router-link></p>
       </div>
 
     </form>
@@ -69,7 +70,6 @@ export default {
     
     const userForm = ref ({
       name:'',
-     
       email :'',
       password:''
     })

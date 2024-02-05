@@ -12,6 +12,35 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+#footer {
+  background-color: #000000; /* Cambia el color de fondo según tus preferencias */
+}
+
+
+.hover-transition:hover {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7; /* Cambia la opacidad al pasar el cursor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade un sombreado suave */
+}
+
+.wifi-background {
+  background-image: url('../../../src/images/wifi.png');
+}
+
+
+/* .custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+} */
+
+.colores h5 {
+  display: inline-block;
+  background:linear-gradient(#a619f8,#00f2fe);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 :root {
   scroll-behavior: smooth;
 }
